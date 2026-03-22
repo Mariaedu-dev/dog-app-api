@@ -1,1 +1,1 @@
-# consuming-dog-api
+# dog-app-api
