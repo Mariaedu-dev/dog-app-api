@@ -58,11 +58,11 @@ dog-app-api/
 ```
 ---
 
-## ⚙️ Como Executar o Projeto
+## 🌐 Visualização Online
+```
+🔗 Acesse o projeto:
+(https://dog-app-api-mv80069.netlify.app/)
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/Mariaedu-dev/dog-app-api.git
 ```
 ---
 
