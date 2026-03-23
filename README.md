@@ -59,11 +59,10 @@ dog-app-api/
 ---
 
 ## 🌐 Visualização Online
-```
+
 🔗 **Acesse o projeto:**
 (https://dog-app-api-mv80069.netlify.app/)
 
-```
 ---
 
 ## 📸 Como Funciona
