@@ -64,10 +64,14 @@ dog-app-api/
 ```bash
 git clone https://github.com/Mariaedu-dev/dog-app-api.git
 
-## 📸 Como Funciona
+---
+
+**## 📸 Como Funciona**
 O usuário clica no botão "Gerar Cachorro"
 O JavaScript faz uma requisição para a API
 A imagem retornada é exibida na tela
+
+---
 
 ## 📚 Objetivo do Projeto
 
@@ -78,16 +82,22 @@ Este projeto foi desenvolvido como parte da disciplina Coding: Mobile, com o obj
 * Aplicar conceitos de responsividade
 * Desenvolver interfaces simples para mobile
 
+---
+
 ## 💡 Possíveis Melhorias
 * Adicionar nome da raça 🐕
 * Implementar sistema de favoritos ❤️
 * Criar animações na troca de imagens
 * Modo escuro/claro 🌙
 
+---
+
 ## 👩‍💻 Autora
 
 Maria Eduarda
 Estudante de Fisioterapia e Análise e Desenvolvimento de Sistemas
+
+---
 
 ⭐ Considerações
 
