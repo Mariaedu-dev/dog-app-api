@@ -63,7 +63,7 @@ dog-app-api/
 1. Clone o repositório:
 ```bash
 git clone https://github.com/Mariaedu-dev/dog-app-api.git
-
+```
 ---
 
 ## 📸 Como Funciona
