@@ -1,18 +1,14 @@
 async function getCachorro() {
-  const div = document.getElementById("cachorro");
+    let response = await fetch("https://dog.ceo/api/breeds/image/random")
+    console.log(response)
 
-  // loading (fica mais profissional)
-  div.innerHTML = "<p>Carregando dog...</p>";
+    let data = await response.json()
+    console.log(data)
 
-  try {
-    const resposta = await fetch("https://dog.ceo/api/breeds/image/random");
-    const dados = await resposta.json();
+    let cachorro = data.message
+    console.log(cachorro)
 
-    div.innerHTML = `
-      <img src="${dados.message}" alt="Cachorro fofo 🐶">
-    `;
-  } catch (erro) {
-    div.innerHTML = "<p>Erro ao carregar dog 😢</p>";
-    console.error(erro);
-  }
+    document.getElementById("cachorro").innerHTML = `
+    <img src="${cachorro}" alt="Cachorro fofo 🐶">
+    `
 }
