@@ -1,0 +1,127 @@
+/* RESET BÁSICO → remove espaçamentos padrões do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* facilita controle de tamanho */
+  font-family: Arial, sans-serif;
+}
+
+/* MOBILE FIRST → tudo começa pensado pro celular */
+body {
+  background: #0f172a;
+  color: white;
+
+  display: flex;
+  flex-direction: column; /* organiza em coluna */
+  align-items: center; /* centraliza horizontal */
+  justify-content: center; /* centraliza vertical */
+
+  min-height: 100vh; /* ocupa tela inteira */
+  padding: 20px;
+  text-align: center;
+}
+
+/* LOGO */
+img {
+  border-radius: 50%; /* deixa redondo */
+  margin-bottom: 10px;
+}
+
+/* TÍTULO */
+h2 {
+  margin-bottom: 10px;
+}
+
+/* TEXTO */
+p {
+  margin-bottom: 20px;
+  font-size: 14px; /* menor no mobile */
+  opacity: 0.8;
+}
+
+/* BOTÃO */
+button {
+  width: 100%; /* ocupa toda largura no mobile */
+  max-width: 300px; /* limite pra não ficar gigante */
+
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+
+  background: #22c55e;
+  color: black;
+  font-weight: bold;
+
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+  transform: scale(1.05);
+}
+
+/* CONTAINER DA IMAGEM */
+#cachorro {
+  width: 100%;
+  max-width: 320px; /* ideal pra celular */
+}
+
+/* IMAGEM DO DOG */
+#cachorro img {
+  width: 100%; /* responsiva */
+  border-radius: 16px;
+  margin-top: 10px;
+  object-fit: cover; /* evita deformar */
+}
+
+/* ========================= */
+/* 📱 TABLET (iPad) */
+/* ========================= */
+@media (min-width: 768px) {
+
+  body {
+    padding: 40px; /* mais espaço nas laterais */
+  }
+
+  h2 {
+    font-size: 28px; /* título maior */
+  }
+
+  p {
+    font-size: 16px; /* texto mais legível */
+  }
+
+  button {
+    max-width: 350px; /* botão um pouco maior */
+    padding: 14px;
+  }
+
+  #cachorro {
+    max-width: 450px; /* imagem maior */
+  }
+}
+
+/* ========================= */
+/* 💻 DESKTOP (extra opcional) */
+/* ========================= */
+@media (min-width: 1024px) {
+
+  body {
+    font-size: 18px;
+  }
+
+  #cachorro {
+    max-width: 500px; /* imagem ainda maior */
+  }
+
+  a {
+  display: block;
+  margin-top: 10px;
+  color: #22c55e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+}

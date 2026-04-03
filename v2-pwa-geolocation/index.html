@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog App 🐶</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- MANIFEST -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- cor do tema -->
+    <meta name="theme-color" content="#000000">
+</head>
+
+<body>
+
+    <img width="150px" alt="Dog App 🐶" src="https://static.vecteezy.com/ti/vetor-gratis/p1/20329361-cachorro-cabeca-animal-simbolo-jogos-cachorro-logotipo-elegante-elemento-para-marca-abstrato-icone-simbolos-vetor.jpg">
+    
+    <h2>Dog App 🐶</h2>
+    <p>Clique no botão a seguir para gerar um cachorro</p>
+
+    <button onclick="getCachorro()">Gerar Cachorro 🐶</button>
+<button onclick="buscarPetshops()">Petshops próximos 🐾</button>
+    <div id="cachorro"></div>
+
+    <script src="js/script.js"></script>
+
+    <!--  REGISTRO DO SERVICE WORKER -->
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/pwabuilder-sw.js')
+        .then(() => console.log("Service Worker registrado"))
+        .catch(err => console.log("Erro SW:", err))
+    }
+    </script>
+
+</body>
+</html>
