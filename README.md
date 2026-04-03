@@ -29,9 +29,10 @@ O app permite gerar imagens aleatórias de cachorros em tempo real utilizando a 
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5  
-- CSS3 (Mobile First)  
-- JavaScript (ES6+)  
-- Fetch API  
+- CSS3
+- JavaScript (Vanilla)  
+- PWA (Progressive Web App)
+- API pública (Dog API)  
 
 ---
 
@@ -81,7 +82,7 @@ dog-app-api/
 1. O usuário clica no botão **"Gerar Cachorro"**  
 2. O JavaScript faz uma requisição para a API  
 3. A imagem retornada é exibida na tela
-4. O usuário clica no botão **"Petshops próximos"**   
+4. O usuário clica no botão **"Petshops próximos"** para buscar estabelecimentos na sua região  
 
 ---
 
