@@ -14,10 +14,7 @@ async function getCachorro() {
         <img src="${cachorro}" alt="Cachorro fofo 🐶">
         `;
 
-        // vibração (hardware)
-        if (navigator.vibrate) {
-            navigator.vibrate(100);
-        }
+       
 
     } catch (erro) {
         div.innerHTML = "Erro ao carregar 😢";
@@ -71,4 +68,13 @@ function buscarPetshops() {
             }
         }
     );
+}
+
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("service-worker.js")
+            .then(() => console.log("Service Worker registrado 🔥"))
+            .catch((err) => console.error("Erro:", err));
+    });
 }
