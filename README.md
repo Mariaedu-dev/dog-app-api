@@ -88,12 +88,12 @@ dog-app-api/
 
 ## 📚 Objetivo do Projeto
 
-Este projeto foi desenvolvido como parte da disciplina **Coding: Mobile**, com o objetivo de:
-
-- Praticar consumo de APIs  
-- Trabalhar com JavaScript assíncrono  
-- Aplicar conceitos de responsividade  
-- Desenvolver interfaces simples para mobile  
+Este projeto foi desenvolvido como parte da disciplina **Coding: Mobile**, com base nos desafios propostos (Desafio I, II e III), com o objetivo de:
+- Praticar o consumo de APIs (requisições assíncronas com JavaScript)  
+- Trabalhar com JavaScript assíncrono (fetch/async/await)  
+- Aplicar conceitos de responsividade para dispositivos móveis 
+- Desenvolver uma aplicação web progressiva (PWA)
+- Criar interfaces simples, funcionais e focadas na experiência do usuário 
 
 ---
 
