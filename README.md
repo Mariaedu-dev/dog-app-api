@@ -46,22 +46,33 @@ O app permite gerar imagens aleatórias de cachorros em tempo real utilizando a 
 
 ---
 
-## 📂 Estrutura do Projeto
-```
+#### 📁 Estrutura do Projeto
+
+```bash
 dog-app-api/
 │
-├── index.html
+├── index.html          # Estrutura principal da aplicação
+├── service-worker.js   # Service Worker (PWA / offline)
+├── manifest.json       # Configurações do PWA
+├── README.md           # Documentação do projeto
+│
 ├── css/
-│ └── style.css
+│   └── style.css       # Estilização da aplicação
+│
 ├── js/
-│ └── script.js
+│   └── script.js       # Lógica da aplicação (API de cachorros)
+│
+├── icons/
+│   ├── icon-192.png    # Ícone PWA (192x192)
+│   └── icon-512.png    # Ícone PWA (512x512)
 ```
+
 ---
 
 ## 🌐 Visualização Online
 
 🔗 **Acesse o projeto:**
-(https://dog-app-api-mv80069.netlify.app/)
+((https://dog-app-pwa.netlify.app/))
 
 ---
 
@@ -69,7 +80,8 @@ dog-app-api/
 
 1. O usuário clica no botão **"Gerar Cachorro"**  
 2. O JavaScript faz uma requisição para a API  
-3. A imagem retornada é exibida na tela  
+3. A imagem retornada é exibida na tela
+4. O usuário clica no botão **"Petshops próximos"**   
 
 ---
 
