@@ -1,8 +1,13 @@
 # 🐶 Dog App - Consumo de API
 
-Aplicação web simples desenvolvida com **HTML, CSS e JavaScript**, com foco em **responsividade (mobile first)** e consumo de API pública.
+Aplicação web simples desenvolvida com HTML, CSS e JavaScript, seguindo o conceito mobile first e consumindo uma API pública.
 
-O app permite gerar imagens aleatórias de cachorros em tempo real utilizando a Dog CEO API.
+O app permite:
+
+Gerar imagens aleatórias de cachorros em tempo real, utilizando a Dog CEO API
+Localizar petshops próximos do usuário, usando geolocalização e integração com Google Maps
+
+Tudo isso em uma interface rápida, responsiva e intuitiva para dispositivos móveis.
 
 ---
 
