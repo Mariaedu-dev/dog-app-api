@@ -78,7 +78,7 @@ dog-app-api/
 ## 🌐 Visualização Online
 
 🔗 **Acesse o projeto:**
-((https://dog-app-pwa.netlify.app/))
+https://dog-app-pwa.netlify.app/
 
 ---
 
